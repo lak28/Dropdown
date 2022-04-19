@@ -1,0 +1,38 @@
+.App {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+   .dropdown{
+    margin-top: 25vh;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    min-height: 30vh;
+    background-color: aqua;
+    width: 25%;
+    height: 10%;
+   }
+  
+   .fa{
+     margin-left: 5px;
+   }
+  
+   .dropdown-container{
+     list-style: none;
+   }
+  
+   .dropdown-item{
+     background-color: white;
+     width: 100px;
+     margin-left: 80px;
+     border-style: double;
+     font-weight: bolder;
+   }
+  .dropdown-item:hover{
+     cursor: pointer;
+    }
+   .btn{
+     width: min-content;
+   }
