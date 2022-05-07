@@ -10,7 +10,7 @@ export default function Dropdown(props) {
         //on hovering upon the select container , the options list is shown
 
         <div className='dropdown'>
-            <h4>Should you use a dropdown ? </h4><br />
+            <h4>My React Dropdown </h4><br />
             <div className="btn-primary btn"  style={{backgroundColor: "#FF0000",color:"white",fontWeight:"bolder", borderRadius:"5px",width:"100px",height:"30px"}}  onMouseEnter={e => SetIsClicked(!isclicked)} onClick={e => SetIsClicked(!isclicked)} >Select
                 <span className="fa fa-caret-down" ></span>
             </div>
